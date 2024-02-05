@@ -1,0 +1,40 @@
+body{
+    height: 100vh;   
+}
+
+
+.header img{
+    width: 200px;
+    height: 150px;
+}
+
+.header{
+    display: flex;
+    
+    background-color: #1F2937;
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    align-self: flex-start;
+    gap: 6px;
+    padding: 20px;
+    margin-right: 12%;
+    
+}
+
+li{
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+a{
+    
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    font-size: 24px;
+  }
